@@ -5,12 +5,16 @@ import { AppComponent } from './app.component';
 import { AlertModule } from 'ngx-bootstrap';
 import { MyNavbarComponent } from './my-navbar/my-navbar.component';
 import { MyJumbotronComponent } from './my-jumbotron/my-jumbotron.component';
+import { MyAboutComponent } from './my-about/my-about.component';
+import { MyHomeComponent } from './my-home/my-home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MyNavbarComponent,
-    MyJumbotronComponent
+    MyJumbotronComponent,
+    MyAboutComponent,
+    MyHomeComponent
   ],
   imports: [
     BrowserModule,
