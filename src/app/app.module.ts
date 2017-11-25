@@ -7,6 +7,7 @@ import { MyNavbarComponent } from './my-navbar/my-navbar.component';
 import { MyJumbotronComponent } from './my-jumbotron/my-jumbotron.component';
 import { MyAboutComponent } from './my-about/my-about.component';
 import { MyHomeComponent } from './my-home/my-home.component';
+import {routing} from './app.routing';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { MyHomeComponent } from './my-home/my-home.component';
   ],
   imports: [
     BrowserModule,
+    routing,
     AlertModule.forRoot()
   ],
   providers: [],
